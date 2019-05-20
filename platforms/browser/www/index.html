@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Fiap 17Mob Cordova</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <h1>My App</h1>
+                    <hr />
+                    <p class="text-small">Precisa estar logado</p>
+                </div>     
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="alert alert-danger" id="message-error" style="display:none;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input required type="email" class="form-control" name="email" id="email"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input required type="password" class="form-control" name="senha" id="senha" />
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary w-100" id="btn-login">Entrar</button>
+                    </div>
+                    <div class="form-group">
+                        <a href="cadastro.html" class="btn btn-link w-100 text-center">Cadatrar</a>
+                    </div>
+                </div>
+            </div>
+           
+            
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
